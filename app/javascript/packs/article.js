@@ -4,7 +4,7 @@ import axios from 'modules/axios'
 import {
   ListenInactiveHeartEvent,
   ListenActiveHeartEvent
-} from 'module/handle_heart'
+} from 'modules/handle_heart'
 
 const handleHeartDisplay = (hasLiked) => {
   if (hasLiked) {
